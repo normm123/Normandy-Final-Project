@@ -1,0 +1,95 @@
+/*
+    Student Name: Normandy Carter
+    Date: 11/24/2023
+    File Name: styles.css
+*/ 
+
+form {
+        width: 70%;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    form #submit {
+    margin: 0 auto;
+    display: block;
+    padding: 3%;
+    background-color: #b7b7e1;
+    font-size: 1em;
+}
+
+/* Media Query for Mobile Viewport */
+@media (max-width: 320px) {
+    .welcome {
+        top: 30%; /* Adjust the top position for better mobile display */
+        left: 5%;
+        padding: 2em;
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/baby-hawk.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center; /* Adjust background position for better mobile display */
+    }
+
+    .welcome {
+        position: absolute;
+        top: 40%;
+    }
+
+    .display-1 {
+        font-size: 3em; /* Adjust font size for better mobile display */
+    }
+
+    .bg-brown {
+        background-color: #2a1f14;
+    }
+}
+
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) {
+    .welcome {
+        top: 20%;
+        left: 5%;
+        padding: 2em;
+    }
+
+    .hero {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(../images/baby-hawk.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .welcome {
+        position: absolute;
+        top: 40%;
+    }
+
+    .display-1 {
+        font-size: 4em;
+    }
+
+    .bg-brown {
+        background-color: #2a1f14;
+    }
+}
+
+/* Media Query for Desktop Viewport */
+@media (min-width: 992px) {
+ /* Gradient Background Design */ 
+   body {
+        background: linear-gradient(to right, #4CAF50, #2196F3);
+        margin: 0;
+        padding: 0;
+    }
+    .hero {
+        background-position: left;
+    }
+
+    .display-1 {
+        font-size: 8em;
+    }
+}
